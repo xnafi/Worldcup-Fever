@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* <!-- Header/Bannar Section start --> */
+.header {
+    margin-top: 50px;
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    place-items: center;
+
+}
+
+.header-text {
+    height: 424px;
+    width: 531px;
+
+}
+
+.header-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+
+}
+
+.header-text p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.header-btn {
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px 25px 16px 25px;
+    background: rgba(221, 0, 0, 1);
+    cursor: pointer;
+    margin-top: 30px;
+    color: white;
+    animation: headerbtn 3s linear infinite;
+    transition: 4s ease-in-out;
+
+
+}
+@keyframes headerbtn {
+    0%{
+        background-color:wheat;
+        color: #161616;
+    }
+    50%{
+        background-color: rgb(46, 4, 4);
+        color: white;
+    }
+    100%{
+        background-color: rgba(221, 0, 0, 1);
+        color: white;
+    }
+}
+
+.header-img {
+    width: 581px;
+    height: 613px;
+}
+
+.header-img img {
+    width: 100%;
+}
+
+/* <!-- Header/Bannar Section End --> */
