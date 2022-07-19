@@ -69,24 +69,31 @@ body {
     cursor: pointer;
     margin-top: 30px;
     color: white;
-    animation: headerbtn 3s linear infinite;
+    animation: headerbtn 4s linear infinite;
     transition: 4s ease-in-out;
 
 
 }
+
 @keyframes headerbtn {
-    0%{
-        background-color:wheat;
+    0% {
+        background-color: wheat;
         color: #161616;
     }
-    50%{
+
+    50% {
         background-color: rgb(46, 4, 4);
         color: white;
     }
-    100%{
+
+    100% {
         background-color: rgba(221, 0, 0, 1);
         color: white;
     }
+}
+
+.header-btn:hover {
+    animation: none;
 }
 
 .header-img {
