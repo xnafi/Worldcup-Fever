@@ -167,6 +167,11 @@ body {
 
 }
 
+.sec-1-div-1 .btn:active {
+    background-color: red;
+
+}
+
 .sec-1-div-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -185,8 +190,13 @@ body {
     top: 826px;
     border-radius: 5px;
     box-shadow: black 0px 3px 6px -4px;
+    transition: 1s ease-in-out;
 
 }
+
+.sec-1-card:hover{
+    transform: scale(1.1);
+ }
 
 .sec-1-card button {
     padding: 4px 16px;
@@ -226,13 +236,8 @@ body {
 
 }
 
-.sec-1-div-1 a:focus, a:active {
+#active-btn {
     background-color: red;
-    color: azure;
-}
-
-.sec-1-div-1 a:active {
-    color: white;
 }
 
 /* blog section end */
